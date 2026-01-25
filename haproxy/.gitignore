@@ -1,0 +1,22 @@
+# SSL Certificates
+ssl/*.pem
+ssl/*.key
+ssl/*.crt
+ssl/*.csr
+
+# HAProxy logs and temporary files
+*.log
+.haproxy/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
