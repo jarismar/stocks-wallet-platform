@@ -4,6 +4,8 @@ HAProxy reverse proxy for local development with HTTPS termination and intellige
 
 ## Overview
 
+![Database](docs/arch_haproxy_rev_proxy.png)
+
 This HAProxy setup provides:
 - **HTTPS termination** on port 443 with TLS/SSL support
 - **Path-based routing** to multiple backend services
